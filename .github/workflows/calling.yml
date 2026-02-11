@@ -9,6 +9,3 @@ on:
 jobs:
   call-reusable-workflow:
     uses: whichwit/gatest/.github/workflows/called.yaml@main
-    with:
-      # Pass the name of the environment to use
-      environment_name: production
