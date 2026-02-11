@@ -10,6 +10,5 @@ jobs:
   call-reusable-workflow:
     uses: whichwit/gatest/.github/workflows/called.yaml@main
     with:
-      environment: production
       VAR: ${{ vars.VAR }}
     secrets: inherit
