@@ -9,6 +9,4 @@ on:
 jobs:
   call-reusable-workflow:
     uses: whichwit/gatest/.github/workflows/called.yaml@main
-    with:
-      VAR: ${{ vars.VAR }}
     secrets: inherit
