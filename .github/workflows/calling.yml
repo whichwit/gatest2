@@ -11,3 +11,4 @@ jobs:
     uses: whichwit/gatest/.github/workflows/called.yaml@main
     with:
           environment: production
+    secrets: inherit
