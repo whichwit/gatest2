@@ -8,4 +8,4 @@ on:
 
 jobs:
   call-reusable-workflow:
-    uses: whichwit/gatest/.github/workflows/called.yaml
+    uses: whichwit/gatest/.github/workflows/called.yaml@main
